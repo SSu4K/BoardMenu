@@ -21,7 +21,7 @@ const command_t HELP_COMMAND = {"HELP", "show help", 0, help_commands};
 
 command_t HOME_COMMANDS[HOME_COMMAND_COUNT] = {
 		{"DIODE", "go to the diode section.", 0, go_section_diode},
-		{"7SEGMENT", "go to the 7 segment display section.", 0, go_section_segment},
+		{"7SEG", "go to the 7 segment display section.", 0, go_section_segment},
 		{"JOY", "go to the joystick section.", 0, go_section_joy},
 		{"LPUART", "go to the lpuart section.", 0, go_section_lpuart},
 		HELP_COMMAND
