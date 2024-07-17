@@ -1,5 +1,5 @@
 # Board Menu
-A simple manu for controlling a STM microcontroller board from user terminal.
+A simple menu for controlling a STM microcontroller board from user terminal.
 
 The program was created as the final task for the *Embedded Systems* course at my university. It was created for a ***KAmeleon-STM32L4*** board. It allows user to communicate with the bord via the LPUART interface and send it some commands. The commands are orgnised into intuitive sections based on the sub-device they control. It was designed to be used via a terminal application like *PuTTy* or *minicom*. Each command causes visible changes to the board or sends it's results back to the users terminal.
 
